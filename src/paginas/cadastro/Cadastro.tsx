@@ -4,6 +4,7 @@ import Usuario from '../../models/Usuario'
 import { cadastrarUsuario } from '../../services/Service'
 import './Cadastro.css'
 import { toastAlerta } from '../../util/toastAlerta'
+import homeLogo from '../../assets/new-york.jpg'
 
 function Cadastro() {
 
@@ -67,6 +68,7 @@ function Cadastro() {
       setConfirmaSenha("")                  // Reinicia o campo de Confirmar Senha
     }
   }
+
 
   return (
     <>
