@@ -21,7 +21,7 @@ function Footer() {
             <p className='text-lg'>Acesse nossas redes sociais</p>
             <div className='flex gap-2'>
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
-              <LinkedinLogo size={30} weight='bold' />
+              <LinkedinLogo size={48} weight='bold' />
             </a>
               <InstagramLogo size={48} weight='bold' />
               <FacebookLogo size={48} weight='bold' />
